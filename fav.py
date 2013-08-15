@@ -8,7 +8,7 @@ m = open('new_favs.txt', 'w')			# sets var m to open new_favs.txt and (w)rite
 f.close()								# closes f (file)
 
 for page in xrange(1, 10):                         # a for loop to run through Twitter pages
-    statuses = api.GetSearch("#Dali", count=500)   # sets var statuses, result of api.Getsearch and custom words and counts to favorite
+    statuses = api.GetSearch("#wordintweet", count=500)   # sets var statuses, result of api.Getsearch and custom words and counts to favorite
 
 count = 0     # sets var count to 0 
 
